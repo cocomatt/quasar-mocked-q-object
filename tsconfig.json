@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "layouts/*": [
+        "./src/layouts/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      // "assets/*": [
+      //   "./src/assets/*"
+      // ],
+      // "boot/*": [
+      //   "./src/boot/*"
+      // ],
+      // "stores/*": [
+      //   "./src/stores/*"
+      // ],
+      // "plugins/*": [
+      //   "./src/plugins/*"
+      // ],
+      // "composables/*": [
+      //   "./src/composables/*"
+      // ],
+      // "utils/*": [
+      //   "./src/utils/*"
+      // ]
+    },
+    "types": [
+      "vite/client",
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./test/**/*"
+  ],
+}

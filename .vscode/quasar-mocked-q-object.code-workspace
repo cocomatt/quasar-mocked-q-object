@@ -1,0 +1,47 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "../"
+    },
+  ],
+  "settings": {
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "npm-intellisense.importES6": true,
+    "npm-intellisense.importQuotes": "'",
+    "npm-intellisense.importLinebreak": ";\r\n",
+    "npm-intellisense.importDeclarationType": "const",
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.showBuildInLibs": true,
+    "npm-intellisense.recursivePackageJsonLookup": true,
+    "scm.alwaysShowRepositories": true,
+    "scm.alwaysShowActions": true,
+  },
+  "extensions": {
+    "recommendations": [
+      "hookyqr.beautify",
+      "dbaeumer.vscode-eslint",
+      "editorconfig.editorconfig",
+      "eg2.vscode-npm-script",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "syler.sass-indented",
+      "vue.volar",
+    ]
+  },
+  "launch": {
+    "configurations": [
+      {
+        "type": "chrome",
+        "name": "https://localhost:9000",
+        "request": "launch",
+        "url": "https://localhost:9000",
+        "resolveSourceMapLocations": [
+          "${workspaceFolder}/**",
+          "!**/node_modules/**"
+        ]
+      },
+    ]
+  }
+}
